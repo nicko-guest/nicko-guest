@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="100%" role="img" aria-label="Tools, Cloud Services, and Engineering Services">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, 'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; }
+    </style>
+  </defs>
+
+  <!-- Outer Panel -->
+  <rect x="8" y="8" width="884" height="404" rx="6" fill="#0a0a0a" stroke="#2a2a2a" stroke-width="1.5"/>
+
+  <!-- Left Card: [02] TOOLS.cfg -->
+  <rect x="24" y="24" width="416" height="372" rx="5" fill="#111111" stroke="#262626" stroke-width="1"/>
+  <rect x="24" y="24" width="416" height="34" rx="5" fill="#161616"/>
+  <rect x="24" y="52" width="416" height="6" fill="#161616"/>
+  <line x1="24" y1="58" x2="440" y2="58" stroke="#262626" stroke-width="1"/>
+  <text class="mono" x="40" y="46" font-size="12.5" fill="#5B91A3" font-weight="700" xml:space="preserve">[02] TOOLS.cfg</text>
+  <text class="mono" x="378" y="46" font-size="11" fill="#3ddc84" xml:space="preserve">[OK]
+    <animate attributeName="opacity" values="1;0.45;1" dur="2.6s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Tools Items -->
+  <text class="mono" x="40" y="86" font-size="11.5" fill="#F25912" font-weight="700" xml:space="preserve">&gt; VERSION_CONTROL</text>
+  <text class="mono" x="54" y="106" font-size="12" fill="#eeece8" xml:space="preserve">Git · GitHub · GitLab</text>
+
+  <text class="mono" x="40" y="138" font-size="11.5" fill="#F25912" font-weight="700" xml:space="preserve">&gt; CI_CD_&amp;_DEVSECOPS</text>
+  <text class="mono" x="54" y="158" font-size="12" fill="#eeece8" xml:space="preserve">GitLab CI/CD (SAST · Secret Scan)</text>
+
+  <text class="mono" x="40" y="190" font-size="11.5" fill="#F25912" font-weight="700" xml:space="preserve">&gt; BUILD_&amp;_RUNTIMES</text>
+  <text class="mono" x="54" y="210" font-size="12" fill="#eeece8" xml:space="preserve">Vite · Node.js · npm</text>
+
+  <text class="mono" x="40" y="242" font-size="11.5" fill="#F25912" font-weight="700" xml:space="preserve">&gt; CONTAINERS</text>
+  <text class="mono" x="54" y="262" font-size="12" fill="#eeece8" xml:space="preserve">Docker (Multi-Stage Alpine)</text>
+
+  <text class="mono" x="40" y="294" font-size="11.5" fill="#F25912" font-weight="700" xml:space="preserve">&gt; DESIGN_&amp;_PROTOTYPING</text>
+  <text class="mono" x="54" y="314" font-size="12" fill="#eeece8" xml:space="preserve">Figma · Design Tokens (DESIGN.md)</text>
+
+  <text class="mono" x="40" y="346" font-size="11.5" fill="#F25912" font-weight="700" xml:space="preserve">&gt; QUALITY_&amp;_WORKFLOW</text>
+  <text class="mono" x="54" y="366" font-size="12" fill="#eeece8" xml:space="preserve">AI-Assisted Eng · Beta Testing · Docs</text>
+
+  <!-- Right Card: [03] SERVICES.json -->
+  <rect x="460" y="24" width="416" height="372" rx="5" fill="#111111" stroke="#262626" stroke-width="1"/>
+  <rect x="460" y="24" width="416" height="34" rx="5" fill="#161616"/>
+  <rect x="460" y="52" width="416" height="6" fill="#161616"/>
+  <line x1="460" y1="58" x2="876" y2="58" stroke="#262626" stroke-width="1"/>
+  <text class="mono" x="476" y="46" font-size="12.5" fill="#F25912" font-weight="700" xml:space="preserve">[03] SERVICES.json</text>
+  <circle cx="804" cy="42" r="3.5" fill="#5B91A3">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <text class="mono" x="814" y="46" font-size="11" fill="#5B91A3" xml:space="preserve">ACTIVE</text>
+
+  <!-- Cloud & Platform Services -->
+  <text class="mono" x="476" y="84" font-size="11.5" fill="#5B91A3" font-weight="700" xml:space="preserve">[A] CLOUD &amp; PLATFORM SERVICES</text>
+
+  <text class="mono" x="488" y="108" font-size="12" fill="#eeece8" font-weight="600" xml:space="preserve">Supabase</text>
+  <text class="mono" x="580" y="108" font-size="11.5" fill="#eeece8" opacity="0.68" xml:space="preserve">Postgres, Auth, Storage &amp; APIs</text>
+
+  <text class="mono" x="488" y="130" font-size="12" fill="#eeece8" font-weight="600" xml:space="preserve">Vercel</text>
+  <text class="mono" x="580" y="130" font-size="11.5" fill="#eeece8" opacity="0.68" xml:space="preserve">Zero-config web &amp; SSR hosting</text>
+
+  <text class="mono" x="488" y="152" font-size="12" fill="#eeece8" font-weight="600" xml:space="preserve">GitHub</text>
+  <text class="mono" x="580" y="152" font-size="11.5" fill="#eeece8" opacity="0.68" xml:space="preserve">Repos, Actions &amp; releases</text>
+
+  <text class="mono" x="488" y="174" font-size="12" fill="#eeece8" font-weight="600" xml:space="preserve">GitLab</text>
+  <text class="mono" x="580" y="174" font-size="11.5" fill="#eeece8" opacity="0.68" xml:space="preserve">Source control &amp; CI pipelines</text>
+
+  <text class="mono" x="488" y="196" font-size="12" fill="#eeece8" font-weight="600" xml:space="preserve">Web3Forms</text>
+  <text class="mono" x="580" y="196" font-size="11.5" fill="#eeece8" opacity="0.68" xml:space="preserve">Serverless contact ingestion</text>
+
+  <text class="mono" x="488" y="218" font-size="12" fill="#eeece8" font-weight="600" xml:space="preserve">itch.io</text>
+  <text class="mono" x="580" y="218" font-size="11.5" fill="#eeece8" opacity="0.68" xml:space="preserve">Interactive 3D game distribution</text>
+
+  <line x1="476" y1="234" x2="860" y2="234" stroke="#242424" stroke-width="1"/>
+
+  <!-- Engineering Services Delivered -->
+  <text class="mono" x="476" y="256" font-size="11.5" fill="#F25912" font-weight="700" xml:space="preserve">[B] ENGINEERING SERVICES DELIVERED</text>
+
+  <text class="mono" x="488" y="280" font-size="12" fill="#eeece8" font-weight="600" xml:space="preserve">├── Full-Stack Web Development</text>
+  <text class="mono" x="514" y="297" font-size="11" fill="#eeece8" opacity="0.62" xml:space="preserve">Planning, UI engineering, APIs &amp; deploy</text>
+
+  <text class="mono" x="488" y="319" font-size="12" fill="#eeece8" font-weight="600" xml:space="preserve">├── Institutional &amp; Backend Systems</text>
+  <text class="mono" x="514" y="336" font-size="11" fill="#eeece8" opacity="0.62" xml:space="preserve">RFID attendance, e-voting &amp; credentials</text>
+
+  <text class="mono" x="488" y="358" font-size="12" fill="#eeece8" font-weight="600" xml:space="preserve">└── IoT, 3D Games &amp; System Architecture</text>
+  <text class="mono" x="514" y="375" font-size="11" fill="#eeece8" opacity="0.62" xml:space="preserve">Telemetry dashboards, Unity &amp; specs</text>
+</svg>

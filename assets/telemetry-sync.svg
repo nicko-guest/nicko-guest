@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="100%" role="img" aria-label="Dynamic GitHub Telemetry Panel">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, 'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; }
+      @keyframes pulseBar {
+        0%, 100% { opacity: 0.95; }
+        50% { opacity: 0.45; }
+      }
+      .pulse { animation: pulseBar 2.4s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <rect x="8" y="8" width="884" height="264" rx="6" fill="#0a0a0a" stroke="#2a2a2a" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <rect x="8" y="8" width="884" height="36" rx="6" fill="#141414"/>
+  <rect x="8" y="38" width="884" height="6" fill="#141414"/>
+  <line x1="8" y1="44" x2="892" y2="44" stroke="#262626" stroke-width="1"/>
+  <text class="mono" x="26" y="31" font-size="12.5" fill="#5B91A3" font-weight="700" xml:space="preserve">[04] GITHUB_TELEMETRY.live</text>
+
+  <circle cx="716" cy="26" r="4" fill="#F25912">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <text class="mono" x="728" y="30" font-size="11.5" fill="#eeece8" opacity="0.85" xml:space="preserve">AUTO-SYNC READY · 6H CRON</text>
+
+  <!-- Left KPI Cards -->
+  <rect x="24" y="60" width="132" height="84" rx="4" fill="#111111" stroke="#242424" stroke-width="1"/>
+  <text class="mono" x="38" y="84" font-size="11" fill="#5B91A3" xml:space="preserve">REPOS</text>
+  <text class="mono" x="38" y="122" font-size="26" font-weight="700" fill="#eeece8" xml:space="preserve">AUTO</text>
+
+  <rect x="168" y="60" width="132" height="84" rx="4" fill="#111111" stroke="#242424" stroke-width="1"/>
+  <text class="mono" x="182" y="84" font-size="11" fill="#F25912" xml:space="preserve">STARS</text>
+  <text class="mono" x="182" y="122" font-size="26" font-weight="700" fill="#eeece8" xml:space="preserve">AUTO</text>
+
+  <rect x="312" y="60" width="144" height="84" rx="4" fill="#111111" stroke="#242424" stroke-width="1"/>
+  <text class="mono" x="326" y="84" font-size="11" fill="#5B91A3" xml:space="preserve">FOLLOWERS</text>
+  <text class="mono" x="326" y="122" font-size="26" font-weight="700" fill="#eeece8" xml:space="preserve">AUTO</text>
+
+  <!-- Left Bottom Metadata -->
+  <rect x="24" y="156" width="432" height="100" rx="4" fill="#111111" stroke="#242424" stroke-width="1"/>
+  <text class="mono" x="38" y="180" font-size="11.5" fill="#F25912" font-weight="700" xml:space="preserve">$ git log --summary --languages</text>
+  <text class="mono" x="38" y="204" font-size="12" fill="#eeece8" xml:space="preserve">Synced automatically on GitHub Actions</text>
+  <text class="mono" x="38" y="236" font-size="11" fill="#eeece8" opacity="0.58" xml:space="preserve">Last sync: Awaiting workflow run (UTC+8)</text>
+
+  <!-- Right Panel: Recent Activity -->
+  <rect x="472" y="60" width="404" height="196" rx="4" fill="#111111" stroke="#242424" stroke-width="1"/>
+  <text class="mono" x="488" y="84" font-size="11.5" fill="#5B91A3" font-weight="700" xml:space="preserve">├── RECENTLY_PUSHED_REPOS</text>
+  <text class="mono" x="488" y="110" font-size="11" fill="#eeece8" opacity="0.55" xml:space="preserve">Auto-refreshed via GitHub Actions workflow</text>
+  <line x1="488" y1="124" x2="860" y2="124" stroke="#242424" stroke-width="1"/>
+  <text class="mono" x="488" y="152" font-size="11" fill="#eeece8" opacity="0.5" xml:space="preserve">#   REPOSITORY                 STACK            STARS</text>
+  <text class="mono" x="488" y="186" font-size="12" fill="#5B91A3" font-weight="700" xml:space="preserve">01</text>
+  <text class="mono" x="516" y="186" font-size="12" fill="#eeece8" font-weight="600" xml:space="preserve">nicko-guest</text>
+  <text class="mono" x="712" y="186" font-size="11" fill="#eeece8" opacity="0.65" xml:space="preserve">Markdown / SVG</text>
+  <text class="mono" x="814" y="186" font-size="11" fill="#F25912" xml:space="preserve">★ 0</text>
+  <rect class="pulse" x="488" y="240" width="84" height="3" rx="1.5" fill="#F25912"/>
+</svg>
