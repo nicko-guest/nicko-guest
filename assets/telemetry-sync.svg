@@ -40,7 +40,7 @@
   <rect x="24" y="156" width="432" height="100" rx="4" fill="#111111" stroke="#242424" stroke-width="1"/>
   <text class="mono" x="38" y="180" font-size="11.5" fill="#F25912" font-weight="700" xml:space="preserve">$ git log --summary --languages</text>
   <text class="mono" x="38" y="204" font-size="12" fill="#eeece8" xml:space="preserve">Python</text>
-  <text class="mono" x="38" y="236" font-size="11" fill="#eeece8" opacity="0.58" xml:space="preserve">Last sync: 2026-11-27 00:06 UTC+8</text>
+  <text class="mono" x="38" y="236" font-size="11" fill="#eeece8" opacity="0.58" xml:space="preserve">Last sync: 2026-11-27 09:21 UTC+8</text>
 
   <!-- Right Panel: Recent Activity -->
   <rect x="472" y="60" width="404" height="196" rx="4" fill="#111111" stroke="#242424" stroke-width="1"/>
